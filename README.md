@@ -1,5 +1,7 @@
-
 # Why there was a need for a new docker builder
+
+![](docker01.png)
+
 
 ## Build a React APP using builder pattern
 
@@ -42,6 +44,7 @@ flowchart TD
 * Multi-stage builds introduced in Docker 17.06 CE solved builder pattern problem.
 * Long build time, no reuse of build/sharing cache
 
+![](docker01.jpeg)
 # BUILDKIT
 
 * Docker 18.06 introduced BUILDKIT which was opt-in feature
